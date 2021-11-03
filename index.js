@@ -4,6 +4,10 @@ import './style.css';
 // Write Javascript code!
 const appDiv = document.getElementById('app');
 appDiv.innerHTML = `<h1>JS Starter</h1>`;
+
+
+
+
 let ravi=100;
 let  teja=200;
 var b=ravi+teja
@@ -27,5 +31,34 @@ var p='150';
 var q='123';
  var r=p-q;
 console.log(r);
+
+//asigenment operators(=,==,===,!==,!===)
+var s=150;
+var t=150;
+var u='rav';
+var v=s==t;
+var w=u===t; 
+console.log(v);
+console.log(w);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
