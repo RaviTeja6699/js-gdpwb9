@@ -40,6 +40,22 @@ var v=s==t;
 var w=u===t; 
 console.log(v);
 console.log(w);
+//swaping of two numbers
+let rv=100;
+let vr=200;
+let tj;
+tj=rv;
+rv=vr;
+vr=tj;
+console.log(rv,vr);
+//another method
+rv=rv+vr;
+rv=rv-vr;
+vr=rv-vr;
+console.log(rv,vr);
+
+
+
 
 
 
