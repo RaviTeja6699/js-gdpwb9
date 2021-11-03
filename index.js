@@ -53,9 +53,12 @@ rv=rv+vr;
 rv=rv-vr;
 vr=rv-vr;
 console.log(rv,vr);
+//arthamatic expressitions
 
 
-
+tj=rv+vr;
+console.log('the sum of ' +rv + ' and '+ vr + 'is : '+tj);
+console.log(rv+'+'+vr+'='+ tj)
 
 
 
