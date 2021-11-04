@@ -2,8 +2,8 @@
 import './style.css';
 
 // Write Javascript code!
-const appDiv = document.getElementById('app');
-appDiv.innerHTML = `<h1>JS Starter</h1>`;
+//const appDiv = document.getElementById('app');
+//appDiv.innerHTML = `<h1>JS Starter</h1>`;
 
 
 
@@ -60,20 +60,52 @@ tj=rv+vr;
 console.log('the sum of ' +rv + ' and '+ vr + 'is : '+tj);
 console.log(rv+'+'+vr+'='+ tj)
 
+//logical operators
+//in this "",false,null,undefined  apart of this ervery thing is true
+var qw=60;
+var qe=80;
+var qr;
+qr=qw>qe || qw<qe;
+console.log(qr);
+qr=qw>qe && qw<qe
+console.log(qr);
+qr=qw>qe || ++qw;    
+console.log(qw);
+console.log(qr);
+
+qr="" || ++qw;    
+console.log(qr);
+console.log(qw);
+
+qr="" && ++qw;    
+console.log(qr);
+console.log(qw);
+
+qr= null || ++qw;    
+console.log(qr);
+console.log(qw);
+
+qr= undefined || ++qw;    
+console.log(qr);
+console.log(qw);
+
+qr=  false || ++qw;    
+console.log(qr);
+console.log(qw);
 
 
 
+qr=true && ++qw;    
+console.log(qr);
+console.log(qw);
 
 
-
-
-
-
-
-
-
-
-
+let y=20;
+let z=30;
+let x;
+x= true && z<y;
+console.log(x);
+console.log(y);
 
 
 
